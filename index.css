@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Magra:wght@700&family=Red+Hat+Text:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  max-width: 1440px;
+}
+.header-section-wrapper {
+  background-image: url(./assets/jpg/header-bg.jpg);
+}
+header {
+  background-color: rgba(242, 120, 92, 0.7);
+  box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+  padding: 0 120px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav {
+  display: flex;
+
+  align-items: center;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.logo-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.logo-text {
+  font-family: "Magra", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #fff;
+}
+.header-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-item {
+  margin: 0 42px;
+}
+.nav-link {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+}
+.header-login {
+  width: 100px;
+  height: 40px;
+  background-color: #0d606f;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+.preview-section {
+  min-height: 655px;
+  padding: 32px 428px 221px 120px;
+}
+.preview-heading {
+  font-family: "Aleo", serif;
+  font-size: 80px;
+  color: #fff;
+  max-width: 800px;
+}
+.preview-text {
+  font-family: "Aleo", serif;
+  font-size: 20px;
+  color: #fff;
+  margin: 45px 0;
+}
+.preview-search-block {
+  max-width: 900px;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.preview-input {
+  background-color: transparent;
+  border: none;
+  font-family: "Aleo", serif;
+  color: #f2785c;
+  font-size: 24px;
+  margin-left: 40px;
+}
+.preview-input::placeholder {
+  color: #f2785c;
+  border: none;
+}
+
+.preview-btn {
+  width: 230px;
+  height: 60px;
+  background-color: #0d606f;
+  border-radius: 10px;
+  border: 0;
+  margin-right: 18px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
