@@ -11,12 +11,11 @@
     <div class="container">
       <div class="header-section-wrapper">
         <header>
-          
-            <div class="header-logo">
-              <img src="./assets/svg/logo.svg" alt="logo" class="logo-img" />
-              <h2 class="logo-text">Travel Portal</h2>
-            </div>
-            <nav class="header-nav">
+          <div class="header-logo">
+            <img src="./assets/svg/logo.svg" alt="logo" class="logo-img" />
+            <h2 class="logo-text">Travel Portal</h2>
+          </div>
+          <nav class="header-nav">
             <ul class="header-nav-list">
               <li class="nav-item">
                 <a href="" class="nav-link">Plan Your Trip</a>
@@ -31,24 +30,87 @@
                 <a href="" class="nav-link">Travel Stories</a>
               </li>
             </ul>
-        </nav>
-            <button class="header-login">Login</button>
           </nav>
+          <button class="header-login">Login</button>
         </header>
         <section class="preview-section">
           <h1 class="preview-heading">Explore the beaty of the World</h1>
-          <p class="preview-text">Receive personalized recommendations for countries, hotels, activities and more</p>
+          <p class="preview-text">
+            Receive personalized recommendations for countries, hotels,
+            activities and more
+          </p>
           <div class="preview-search-block">
-            <input type="text" placeholder="What would you like to do?" name="" id="" class='preview-input'>
+            <input
+              type="text"
+              placeholder="What would you like to do?"
+              name=""
+              id=""
+              class="preview-input"
+            />
             <button class="preview-btn">Start Planning</button>
           </div>
         </section>
       </div>
       <main>
-        <section class="steps-section"></section>
-        <section class="destinations-sections"></section>
-        <section class="stories-section"></section>
+        <section class="steps-section">
+          <h2 class="steps-heading">3 STEPS TO THE PERFECT TRIP</h2>
+          <div class="steps-block">
+            <div class="step">
+              <img
+                src="./assets/png/step1_bicycle.png"
+                alt=""
+                class="step-img"
+              />
+              <p class="step-text">Tell us what you want to do</p>
+            </div>
+            <div class="step">
+              <img
+                src="./assets/png/step2_calendar.png"
+                alt=""
+                class="step-img"
+              />
+              <p class="step-text">Share us preferable dates</p>
+            </div>
+            <div class="step">
+              <img
+                src="./assets/png/step3_airplane.png"
+                alt=""
+                class="step-img"
+              />
+              <p class="step-text">We will give you recommendations</p>
+            </div>
+          </div>
+        </section>
+        <section class="destinations-section">
+          <h2 class="destinations-heading">POPULAR DESTINATIONS</h2>
+
+          <div class="destinations-slider">
+            <div class="destinations-slides">
+              <div class="dest-slide slide1">
+                <p class="slide-text">SPAIN</p>
+              </div>
+              <div class="dest-slide slide2">
+                <p class="slide-text">JAPAN</p>
+              </div>
+              <div class="dest-slide slide3"><p class="slide-text">USA</p></div>
+            </div>
+            <div class="slider-controls">
+              <button class="slider-btn"></button>
+              <button class="slider-btn slider-btn-active"></button>
+              <button class="slider-btn"></button>
+            </div>
+          </div>
+          <button class="destinations-btn">
+            <img
+              src="./assets/svg/bi_arrow-right.svg"
+              alt=""
+              class="btn-arrow"
+            />
+            Find more
+          </button>
+        </section>
       </main>
+      <section class="stories-section"></section>
       <footer></footer>
     </div>
   </body>
